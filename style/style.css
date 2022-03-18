@@ -34,3 +34,9 @@ body{
     background-color: var(--bright-blue);
     color: white;
 }
+
+@media all and (max-width:375px) {
+    body{
+        background-image: url('../images/pattern-background-mobile.svg');
+    }
+}
