@@ -10,12 +10,27 @@
 :root{
     --pale-blue : hsl(225, 100%, 94%);
     --bright-blue :  hsl(245, 75%, 52%);
-
+    --very-pale-blue : hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
 }
 
 body{
     background-image: url('../images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-color: var(--pale-blue);
-    background-size: auto;
+    background-size: contain;
+}
+
+.grey-text{
+    color: var(--desaturated-blue);
+}
+
+.pale-bg{
+    background-color: var(--very-pale-blue);
+}
+
+.btn{
+    background-color: var(--bright-blue);
+    color: white;
 }
